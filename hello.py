@@ -4,7 +4,7 @@ print("=" * 40)
 print("Bienvenue dans mon premier job Jenkins !")
 print("=" * 40)
 
-if len(sys.agrv) > 1:
+if len(sys.argv) > 1:
     nom = sys.argv[1]
 else:
     nom = "Etudiant Jenkins"

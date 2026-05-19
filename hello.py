@@ -16,5 +16,5 @@ b = 5
 print(f"{a} + {b} = {a + b}")
 print(f"{a} + {b} = {a + b}")
 
-assert a + b == 15, "Le tests a echoue !"
+assert a + b == 100, "Le tests a echoue intentionnellement!"
 print("Tous les tests passent avec succes")
